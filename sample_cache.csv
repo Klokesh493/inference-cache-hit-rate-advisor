@@ -1,0 +1,4 @@
+endpoint,requests_per_min,cache_hit_rate,p95_latency_ms
+ranker,9000,0.86,115
+recommendations,14000,0.52,310
+fraud-score,3000,0.67,180

@@ -4,11 +4,14 @@ Recommends cache tuning actions for model-serving endpoints based on hit rate, l
 
 ```mermaid
 flowchart LR
-    N0["sample_cache.csv"]
-    N1["cache_advisor.py"]
-    N2["recommendation / advise"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Endpoint cache and latency metrics"]
+    B["Evaluate hit rate, latency, and traffic volume"]
+    C{"Which ordered policy matches?"}
+    D["Recommend TTL, warm keys, or profiling"]
+    E["Keep current settings if none match"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries

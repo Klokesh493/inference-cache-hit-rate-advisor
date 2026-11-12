@@ -1,0 +1,2 @@
+endpoint,requests_per_min,cache_hit_rate,p95_latency_ms
+fraud-score,3000,0.67,180

@@ -1,0 +1,3 @@
+ranker: healthy
+recommendations: increase_ttl_and_precompute
+fraud-score: healthy

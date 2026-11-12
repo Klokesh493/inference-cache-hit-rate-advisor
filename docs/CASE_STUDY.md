@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Recommends cache tuning actions for model-serving endpoints based on hit rate, latency, and traffic volume.
+High inference latency can have different causes. Operators need to decide whether cache misses, traffic, or model latency deserve the first investigation.
 
 ## Reproduce the workflow
 
